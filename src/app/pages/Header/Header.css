@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegation{
+    display: flex;
+    flex: 9;
+}
+
+.menu_navegation{
+    display: flex;
+    flex: 3;
+    height: 8vh;
+    align-items: center;
+}
+
+.info_navegation{
+    display: flex;
+    flex: 1;
+    height: 8vh;
+    align-items: center;
+}
+
+
+.sales_logo{
+    width: 60px;
+    height:45px ;
+
+}
+
+
+ul, li{
+  list-style: none;  
+}
+
+ul{
+    display: flex;
+}
+
+ul a {
+    text-decoration: none;
+    color: #032D60;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 0.90rem;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: #2371cf;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 0.90rem;
+}
+
+.icon_person{
+    width: 35px;
+    height: 35px;
+}
+
+.login{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: .90rem;
+    text-decoration: none;
+    color: #032D60;
+}
+
+.box_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+.box_login:hover{
+    background-color: #cee4ff;
+}
