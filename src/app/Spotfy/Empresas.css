@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-empresa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.boxer{
+    width: 55%;
+}
+
+.video{
+    width: 100%;
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.subtitle_desc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card_space{
+    margin-top: 150px;
+}

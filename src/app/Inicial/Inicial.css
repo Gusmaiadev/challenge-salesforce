@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box-container{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around
+}
+
+
+  .social_images{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+  }
+
+  .banner_social{
+    width: 30vw;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 0 8px 1px #3a3a3a, 4px 4px 8px 1px #3a3a3a;
+    border-radius: 10px;
+  }
+
+  .subtitle_ini{
+    margin: 150px 0 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
