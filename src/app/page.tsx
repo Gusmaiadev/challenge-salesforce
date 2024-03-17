@@ -1,11 +1,13 @@
-import Header from "./pages/Header/page";
-import Inicial from "./pages/Inicial/page";
+import Inicial from "./Inicial/page";
+
+
 
 
 export default function Home() {
   return (
     <>
-    <Header/>
+    <Inicial/>
     </>
   );
 }
+
