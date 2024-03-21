@@ -1,5 +1,5 @@
 'use client'
-import Subtitulo from '@/app/components/Subtitulo';
+import Subtitulo from '@/app/components/Subtitulo/Subtitulo';
 import './Acessibilidade.css';
 import Image from 'next/image';
 import subti from '../../Data/Subtitulo.json';

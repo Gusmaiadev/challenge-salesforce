@@ -23,7 +23,7 @@
   }
 
   .banner_social{
-    width: 30vw;
+    width: 32rem;
     height: 400px;
     object-fit: cover;
     box-shadow: 0 0 8px 1px #3a3a3a, 4px 4px 8px 1px #3a3a3a;
@@ -35,4 +35,48 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    font-size: 10px;
   }
+
+  
+  @media (max-width: 1540px) {
+      
+    .banner_social{
+      width: 25rem;
+      height: 300px;
+  
+    }
+     }
+     
+  @media (max-width: 1225px) {
+
+    .social_images{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      margin-bottom: 200px;
+  
+    }
+      
+    .banner_social{
+      width: 60vw;
+      height: 300px;
+      margin-top: 50px;
+      object-fit: cover;
+  
+    }
+     }
+     
+  @media (max-width: 760px) {
+
+    .banner_social{
+      width: 90vw;
+      height: 300px;
+      margin-top: 50px;
+      object-fit: cover;
+  
+    }
+     }
+     

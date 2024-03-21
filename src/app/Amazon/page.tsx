@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import banner from '../images/tumbanail_amazon.png'
 import Banner from '@/app/components/Banner';
-import Subtitulo from '@/app/components/Subtitulo';
+import Subtitulo from '@/app/components/Subtitulo/Subtitulo';
 import subTitulo from '../../Data/Subtitulo.json'
 import Paragrafo from '@/app/components/Paragrafo';
 import textParagrafo from '../../Data/Text.json'

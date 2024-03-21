@@ -1,5 +1,5 @@
 'use client'
-import Secao from "@/app/components/Secao"
+
 import personagens from '../images/persons_sales.png'
 import coca from '../images/coca-cola.png';
 import amazon from '../images/Amazon.png';
@@ -10,8 +10,9 @@ import './Inicial.css'
 import Link from 'next/link'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
-import Subtitulo from '@/app/components/Subtitulo';
+import Subtitulo from '@/app/components/Subtitulo/Subtitulo';
 import textSub from '../../Data/Subtitulo.json'
+import Secao from '../components/Secao/Secao';
 
 
 
