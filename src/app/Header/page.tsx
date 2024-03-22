@@ -43,7 +43,7 @@ const Header = () => {
                             <div className='menu_navegation'>
                                 <ul>
                                     <li><Link href="/">Home</Link></li>
-                                    <li><Link href="#">Produtos</Link></li>
+                                    <li><Link href="/Produtos">Produtos</Link></li>
                                     <li><Link href="/Acessibilidade">Acessibilidade</Link></li>
                                     <li><Link href="#">Integrantes</Link></li>
                                 </ul>
