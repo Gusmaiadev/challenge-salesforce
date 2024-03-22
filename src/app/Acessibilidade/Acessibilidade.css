@@ -29,3 +29,12 @@
     justify-content: center;
     margin-top: 30px;
 }
+
+
+@media (max-width: 535px) {
+    .image_acessibilidade{
+        width: 15rem;
+        height: 15vh;
+        
+    }
+   }

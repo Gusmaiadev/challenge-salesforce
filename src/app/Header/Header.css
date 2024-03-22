@@ -143,6 +143,7 @@ ul a:hover {
 @media screen and (max-width: 770px) {
     .menuHeader{
         display:block;
+        margin-left: -150px;
     }
     .menu_navegation {
     display: none; 
@@ -150,6 +151,9 @@ ul a:hover {
 
     .info_navegation {
     display: none; 
+    }
+    .menu_content{
+        transform: translateX(-5.5rem);
     }
     
 
@@ -161,6 +165,14 @@ ul a:hover {
     }
     .menu_content{
         transform: translateX(-5.5rem);
+    }
+    .logo{
+        display: flex;
+        flex: 1;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 50px;
     }
     
 

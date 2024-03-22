@@ -52,3 +52,29 @@ footer{
     
 }
 
+
+
+@media (max-width: 500px) {
+    .desc_footer p{
+        font-size: 0.8rem;
+        width: 50vw;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+   
+     }
+
+@media (max-width: 390px) {
+    .logo{
+        flex: 0;
+    }
+    .logo_sales{
+        display: none;
+    }
+    
+    }
+   
+     
+     
+

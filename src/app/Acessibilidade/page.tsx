@@ -28,7 +28,7 @@ return(
                             </div>
                         </div>
                         <div className='acessibilidade_image'>
-                                <Image src={acb_img} alt="Simbolo Acessibilidade"/>
+                                <Image className='image_acessibilidade' src={acb_img} alt="Simbolo Acessibilidade"/>
                         </div>
                 </div>
         </div>

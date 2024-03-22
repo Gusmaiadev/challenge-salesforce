@@ -8,12 +8,12 @@ type BannerProps = {
 };
 
 const Banner: React.FC<BannerProps> = ({ imagem, altura = 300 }) => {
- // Definindo os estilos de forma que sejam compatíveis com o TypeScript
+ 
  const estiloBanner: React.CSSProperties = {
     width: '100%',
     height: `${altura}px`,
     overflow: 'hidden',
-    position: 'relative', // Certifique-se de que 'position' esteja corretamente tipado
+    position: 'relative', 
  };
 
  const estiloImagem: React.CSSProperties = {
