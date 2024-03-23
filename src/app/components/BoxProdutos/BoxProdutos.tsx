@@ -1,12 +1,12 @@
-// Box.js
-import React from 'react';
-import Image from 'next/image'; // Adicione esta linha
+'use client'
 import '../BoxProdutos/BoxProdutos.css'; 
+import React from 'react';
+import Image from 'next/image'; 
 import { StaticImageData } from 'next/image';
 
 interface BoxProdutoProps {
     texto: string;
-    imagem: StaticImageData; // Modifique aqui para aceitar StaticImageData
+    imagem: StaticImageData; 
 }
 
 const BoxProduto: React.FC<BoxProdutoProps> = ({ texto, imagem }) => {

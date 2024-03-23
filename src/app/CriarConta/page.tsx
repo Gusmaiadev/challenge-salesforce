@@ -1,6 +1,6 @@
 'use client'
 
-import '../Login/Login.css';
+import '../CriarConta/CriarConta.css';
 import Link from 'next/link'
 
 
@@ -10,17 +10,44 @@ const CriarConta = () => {
 
     return (
         <>
-           <section className='container_conta'>
+           <section className='container_cadastro'>
                     <form className='forms_conta'>
                         <h2 className='forms_title'>Criar Conta</h2>
-                        <label> E-mail
-                            <input type="email" name="email" />
+                        <label> Nome
+                            <input type="text" name="nome" />
                         </label>
-                        <label> Senha
-                           <input type="password" name='senha' />
+
+                        <label> Sobrenome
+                           <input type="text" name='sobrenome' />
                         </label>
-                        <Link className='link_conta' href='/'>Não tem conta? Criar conta</Link>
-                      <input className='botao_enviar' type="submit" placeholder='Entrar'/>
+
+                        <label> Cargo
+                           <input type="text" name='cargo' />
+                        </label>
+
+                        <label> E-mail corporativo
+                           <input type="email" name='email' />
+                        </label>
+
+                        <label> Telefone
+                           <input type="tel" name='telefone' />
+                        </label>
+
+                        <label> Quantidade de funcionários
+                           <input type="number" name='funcionarios' />
+                        </label>
+
+                        <label> País de atuação
+                           <input type="text" name='país' />
+                        </label>
+
+                        <label> Idioma
+                           <input type="text" name='idioma' />
+                        </label>
+
+
+                        <Link className='link_conta' href='/Login'>Já é cadastrado? fazer login</Link>
+                        <input className='botao_enviar' type="submit" value={'Cadastrar'}/>
                     </form>
            </section>
         </>
