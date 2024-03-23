@@ -52,7 +52,7 @@ const Header = () => {
                         
                         <div className='info_navegation'>
                             <div className='box_login'>
-                                <Link href='#'><Image className='icon_person' src={person} alt='login'/></Link>
+                                <Link href='/Login'><Image className='icon_person' src={person} alt='login'/></Link>
                             </div>
                         </div>
                     </nav>

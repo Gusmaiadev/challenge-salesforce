@@ -1,27 +1,25 @@
 'use client'
 
 import '../Login/Login.css';
-import Subtitulo from '../components/Subtitulo/Subtitulo';
-import textTitle from '../../Data/Subtitulo.json'
 import Link from 'next/link'
 
 
 
-const Login = () => {
+const CriarConta = () => {
    
 
     return (
         <>
            <section className='container_conta'>
                     <form className='forms_conta'>
-                        <h2 className='forms_title'>Login</h2>
+                        <h2 className='forms_title'>Criar Conta</h2>
                         <label> E-mail
                             <input type="email" name="email" />
                         </label>
                         <label> Senha
                            <input type="password" name='senha' />
                         </label>
-                        <Link className='link_conta' href='/CriarConta'>Não tem conta? Criar conta</Link>
+                        <Link className='link_conta' href='/'>Não tem conta? Criar conta</Link>
                       <input className='botao_enviar' type="submit" placeholder='Entrar'/>
                     </form>
            </section>
@@ -29,4 +27,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default CriarConta;
