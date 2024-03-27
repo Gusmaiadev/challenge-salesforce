@@ -80,7 +80,7 @@ const Coca = () => {
                     <div className='subtitle_desc card_space'>
                         <Subtitulo text={subTitulo.sub_spotfy_dois}/>
                     </div>
-                    <div className='card'>
+                    <div className='card-empresas'>
                         <Link href='/Spotfy'><Image  className='card_empresa' src={cardspotfy} alt='Card Spotfy'/></Link>
                         <Link href='/Amazon'><Image className='card_empresa' src={cardAmazon} alt='Card Amazon'/></Link>
                     </div>

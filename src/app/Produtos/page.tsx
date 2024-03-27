@@ -24,7 +24,8 @@ const Produtos = () => {
     return (
         <>
            <section className='container_produtos'>
-                    <div className='box_produtos'>
+                    <div className='cx_produtos'>
+
                         <div className='title_produtos'>
                                 <Subtitulo text={textTitle.sub_produtos}/>
                         </div>
@@ -33,7 +34,7 @@ const Produtos = () => {
                         <div className='title_produtos'>
                                 <Subtitulo text={textTitle.sub_produtos_einstein}/>
                         </div>
-                        <BoxProduto texto={textProdutos.text_produtos_einstein} imagem={imgUm} />
+                        <BoxProduto  texto={textProdutos.text_produtos_einstein} imagem={imgUm} />
 
 
                         <div className='title_produtos'>

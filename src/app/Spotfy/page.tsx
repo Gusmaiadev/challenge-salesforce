@@ -86,7 +86,7 @@ return(
                     <div className='subtitle_desc card_space'>
                             <Subtitulo text={subTitulo.sub_spotfy_dois}/>
                     </div>
-                    <div className='card'>
+                    <div className='card-empresas'>
                             <Link href='/Coca'><Image className='card_empresa' src={cardCoca} alt='Card Coca Cola'/></Link>
                             <Link href='/Amazon'><Image className='card_empresa' src={cardAmazon} alt='Card Amazon'/></Link>
                     </div>

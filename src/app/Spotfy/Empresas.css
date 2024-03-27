@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.card{
+.card-empresas{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -41,23 +41,41 @@
 
 
 
-@media (max-width: 850px) {
-    .card{
+@media (max-width: 1400px) {
+    .card-empresas{
         width: 100%;
         display: flex;
-        flex-direction: column;
         justify-content:center;
         align-items: center;
         margin-top: 70px;
+        
+    }
+    .card_empresa{
+        width: 22rem;
+    }
+   }
+
+@media (max-width: 900px) {
+    .card-empresas{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+        
+    }
+    .card_empresa{
+        width: 22rem;
     }
    }
    
 @media (max-width: 430px) {
     .card_empresa{
-        width: 100vw;
+        width: 18rem;
     }
     .boxer{
-        width: 80%;
+        width: 90%;
     }
    }
    

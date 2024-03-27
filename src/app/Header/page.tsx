@@ -15,7 +15,7 @@ const Header = () => {
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
             if (window.innerWidth < 770) {
-                setMenuOpen(false); // Fecha o menu se a largura da tela for menor que 770px
+                setMenuOpen(false);
             }
         };
 
@@ -63,11 +63,10 @@ const Header = () => {
                     {menuOpen && windowWidth < 770 && (
                         <div className='menu_content'>
                             <ul>
-                                <li><Link href="#">Link 1</Link></li>
-                                <li><Link href="#">Link 2</Link></li>
-                                <li><Link href="#">Link 3</Link></li>
-                                <li><Link href="#">Link 4</Link></li>
-                                <li><Link href="#">Link 5</Link></li>
+                                <li><Link href="/">Home</Link></li>
+                                <li><Link href="/Produtos">Produtos</Link></li>
+                                <li><Link href="/Acessibilidade">Acessibilidade</Link></li>
+                                <li><Link href="/Integrantes">Integrantes</Link></li>
                             </ul>
                         </div>
                     )}
