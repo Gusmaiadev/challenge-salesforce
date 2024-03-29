@@ -121,22 +121,24 @@ ul a:hover {
 .menu_content {
     position: absolute;
     width: 150px;
-    top: 7%; /* Posiciona o menu logo abaixo do botão */
-    transform: translateX(-1rem); /* Ajusta a posição para garantir que o centro do menu esteja alinhado com o centro do botão */
-    border-radius: 5px; /* Adiciona bordas arredondadas para melhorar a aparência */
-    z-index: 1000; /* Garante que o menu esteja acima de outros elementos */
+    top: 7%; 
+    transform: translateX(-1rem); 
+    border-radius: 5px; 
+    z-index: 1000; 
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #2371cf;
 }
 
 .menu_content ul {
-    flex-direction: column; /* Garante que os itens do menu estejam em uma coluna */
-    padding: 10px 0; /* Adiciona um pouco de padding para melhorar a aparência */
+    flex-direction: column; 
+    padding: 10px 0; 
 }
 
 .menu_content ul li {
     margin-bottom: 10px;
+
 }
 
 
@@ -154,6 +156,13 @@ ul a:hover {
     }
     .menu_content{
         transform: translateX(-5.5rem);
+    }
+    ul a {
+        color: #ffffff;
+    }
+    
+    ul a:hover {
+        color: #ffffff;
     }
     
 
