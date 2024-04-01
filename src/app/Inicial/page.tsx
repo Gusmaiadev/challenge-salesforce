@@ -40,7 +40,7 @@ const Inicial = () =>{
       
           <Secao
               titulo={contenText.titulo_um}
-              texto={contenText.desc_um}
+              texto={contenText.desc_dois}
               imagem={mulherUrso} width={600} height={400} />
         </>
     )

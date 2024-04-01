@@ -1,7 +1,6 @@
 'use client'
 
 import '../Login/Login.css';
-
 import Link from 'next/link'
 
 
