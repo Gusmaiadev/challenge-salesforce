@@ -67,6 +67,8 @@ const Header = () => {
                                 <li><Link href="/Produtos">Produtos</Link></li>
                                 <li><Link href="/Acessibilidade">Acessibilidade</Link></li>
                                 <li><Link href="/Integrantes">Integrantes</Link></li>
+                                <li><Link href="/Login">Login</Link></li>
+
                             </ul>
                         </div>
                     )}

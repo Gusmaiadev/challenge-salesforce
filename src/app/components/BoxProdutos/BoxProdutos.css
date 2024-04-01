@@ -15,9 +15,9 @@
     background-color: #009ED5;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 400;
-    padding: 50px;
+    padding: 10px;
     border-radius:  20px 0px 0px 20px;
     overflow:auto;
 }
