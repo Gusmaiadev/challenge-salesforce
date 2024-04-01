@@ -1,8 +1,7 @@
 'use client'
 
 import '../Login/Login.css';
-import Subtitulo from '../components/Subtitulo/Subtitulo';
-import textTitle from '../../Data/Subtitulo.json'
+
 import Link from 'next/link'
 
 
