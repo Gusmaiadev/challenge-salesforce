@@ -13,6 +13,8 @@ import Image from "next/image";
 import Subtitulo from '@/app/components/Subtitulo/Subtitulo';
 import textSub from '../../Data/Subtitulo.json'
 import Secao from '../components/Secao/Secao';
+   
+
 
 
 

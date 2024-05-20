@@ -30,7 +30,6 @@ const Produtos = () => {
                                 <Subtitulo text={textTitle.sub_produtos}/>
                         </div>
 
-
                         <div className='title_produtos'>
                                 <Subtitulo text={textTitle.sub_produtos_einstein}/>
                         </div>

@@ -21,7 +21,7 @@ const Integrantes = () => {
                             <div className='box_integrantes'>
                                     <p className='name_rm'> Gustavo Maia  RM:553270</p>
                                     <p className='name_rm'> Thiago Rocha  RM:553820</p>
-                                    <p className='name_rm'> Pedro Ferrari RM:552678</p>
+                                    <p className='name_rm'> Pedro Araújo RM:553801</p>
                             </div>
 
                             <div className='title_integrantes'>

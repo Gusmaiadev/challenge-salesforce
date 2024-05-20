@@ -9,7 +9,7 @@ const Paragrafo: React.FC<ParagrafoProps> = ({ texto }) => {
  const estiloParagrafo: React.CSSProperties = {
     fontFamily: 'Poppins, sans-serif',
     fontSize: '1rem',
-    marginTop: '50px',
+    marginTop: '30px',
     color: 'black'
  };
 

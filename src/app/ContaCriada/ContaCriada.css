@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conta_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.title_contacriada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.title_contacriada h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+.btns_contacriada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btns_contacriada button{
+    width: 200px;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    background-color: #2371cf;
+    border: 0px;
+    margin-left: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+

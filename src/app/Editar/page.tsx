@@ -5,14 +5,14 @@ import Link from 'next/link'
 
 
 
-const CriarConta = () => {
+const Editar = () => {
    
 
     return (
         <>
            <section className='container_cadastro'>
                     <form className='forms_conta'>
-                        <h2 className='forms_title'>Criar Conta</h2>
+                        <h2 className='forms_title'>Editar Dados</h2>
 
                      <div className='box-input'>
                         <label> Nome completo
@@ -55,26 +55,22 @@ const CriarConta = () => {
                            <input type="text" name='setor' />
                         </label>
                      </div>
-
                      
                      <div className='box-input'>
                         <label> E-mail
                            <input type="email" name='email' />
                         </label>
 
-                        <label> Crie sua senha
+                        <label> Nova senha
                            <input type="password" name='password' />
                         </label>
                      </div>
                         
-
-
-                        <Link className='link_conta' href='/Login'>Já é cadastrado? fazer login</Link>
-                        <input className='botao_sub' type="submit" value={'Cadastrar'}/>
+                        <Link href='/Perfil'><input className='botao_sub' type="submit" value={'Salvar Anterações'}/></Link>
                     </form>
            </section>
         </>
     );
 };
 
-export default CriarConta;
+export default Editar;

@@ -6,8 +6,10 @@
 
 .container_produtos{
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 
 .cx_produtos{
@@ -23,4 +25,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px 0 0 50px;
 }

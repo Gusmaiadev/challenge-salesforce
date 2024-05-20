@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Header from "./Header/page";
 import Footer from "./Footer/page";
 import Link from 'next/link';
-import icon from '../../public/favicon.ico'
+import Acess from '../app/components/UwScriptComponent'
+import Dalt from '../app/components/AccessibilityMenu'
+import Chatbot from '../app/components/WatsonAssistantChat'
+
 
 
 
@@ -25,7 +28,10 @@ export default function RootLayout({
         </head>
       <body>
         <Header/>
+        <Acess/>
         {children}
+        <Dalt/>
+        <Chatbot/>
         <Footer/>
         </body>
     </html>

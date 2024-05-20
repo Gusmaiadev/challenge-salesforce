@@ -24,7 +24,6 @@ return(
                             <div className='Acessecibilidade_desc'>
                                     <Paragrafo texto={textAcb.text_acb_um}/>
                                     <Paragrafo texto={textAcb.text_acb_dois}/>
-                                    <Paragrafo texto={textAcb.text_acb_tres}/>
                             </div>
                         </div>
                         <div className='acessibilidade_image'>
