@@ -25,5 +25,7 @@
     "@types/react-dom": "^18",
     "@types/react-slick": "^0.23.13",
     "typescript": "^5"
-  }
+  },
+  
+    "proxy":"http://localhost:8080/ProjetoChallengeSalesForce"
 }

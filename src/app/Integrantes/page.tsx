@@ -37,7 +37,7 @@ const Integrantes = () => {
                             </div>
 
                             <div className='box_integrantes'>
-                                    <a target='blank' href="https://youtu.be/FbMXmz-yvfM"><p className='name_rm'>Youtube</p></a>  
+                                    <a target='blank' href="https://youtu.be/34Xk-g2V-IA"><p className='name_rm'>Youtube</p></a>  
                             </div>
                    </div>
            </section>

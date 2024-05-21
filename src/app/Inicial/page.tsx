@@ -15,10 +15,6 @@ import textSub from '../../Data/Subtitulo.json'
 import Secao from '../components/Secao/Secao';
    
 
-
-
-
-
 const Inicial = () =>{
 
     return(
